@@ -1,0 +1,19 @@
+{
+
+  "teams": [
+    {
+      "id": 1,
+      "name": "Voyage au Sahara",
+      "projectName": "2024-12-20",
+      "level": "eee",
+      "projectDescription": "assets/photo.png"
+    },
+    {
+      "id": 1,
+      "name": "Voyage au Sahara",
+      "projectName": "2024-12-20",
+      "level": "eee",
+      "projectDescription": "assets/photo.png"
+    }
+  ]
+}

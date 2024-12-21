@@ -1,0 +1,54 @@
+<p>addteam-components works!</p>
+
+<!-- <div class="container">
+  <div class="row">
+   <form (ngSubmit)="addTeam()" #form="ngForm">
+      <div class="container">
+        <div class="row">
+
+          <div class="mb-3">
+            <label for="name">Titre :</label>
+            <input type="text" class="form-control" id="name"  #name="ngModel" [(ngModel)]="team.name" pattern="[a-zA-Z0-9]*" name="team" required >
+            <div *ngIf="name.invalid && (name.touched || name.dirty)" class="text-danger">
+              <small *ngIf="name.errors?.['required']">name obligatoire .</small>
+              <small *ngIf="name.errors?.['pattern']">Le name ne doit contenir que des lettres et des chiffres.</small>
+          </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="projectName">projectName :</label>
+            <input type="text" class="form-control" id="name"  #projectName="ngModel" [(ngModel)]="team.projectName" pattern="[a-zA-Z0-9]*" name="team" required >
+            <div *ngIf="projectName.invalid && (projectName.touched || projectName.dirty)" class="text-danger">
+              <small *ngIf="projectName.errors?.['required']">name obligatoire .</small>
+              <small *ngIf="projectName.errors?.['pattern']">Le name ne doit contenir que des lettres et des chiffres.</small>
+          </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="level">level :</label>
+            <input type="text" class="form-control" id="level"  #level="ngModel" [(ngModel)]="team.level" pattern="[a-zA-Z0-9]*" name="team" required >
+            <div *ngIf="level.invalid && (level.touched || level.dirty)" class="text-danger">
+              <small *ngIf="level.errors?.['required']">level obligatoire .</small>
+              <small *ngIf="level.errors?.['pattern']">Le name ne doit contenir que des lettres et des chiffres.</small>
+          </div>
+          </div>
+
+
+          <div class="mb-3">
+            <label for="projectDescription">projectDescription</label>
+            <input type="text" class="form-control" id="projectDescription" [(ngModel)]="team.projectDescription"#projectDescription="ngModel" name="projectDescription" minlength="5">
+            <div *ngIf="!projectDescription?.valid" class="text-danger">
+              <small *ngIf="projectDescription.errors?.['minlength']"> Minimum 5 caractères</small>
+          </div>
+          </div>
+
+
+          <div class="mb-3">
+            <button type="submit" class="btn btn-primary"  [disabled]="form.invalid"  >Ajouter</button>
+          </div>
+
+        </div>
+      </div>
+    </form>
+  </div><p>aaa</p>
+</div> -->
